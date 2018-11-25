@@ -7,8 +7,7 @@ function toggleMenu(idx) {
 }
 
 function pagetimer() {
-	lighthome();
-	setTimeout(function() {pagetimer();},2500);
+	setTimeout(function() {lighthome();},2500);
 }
 
 function lighthome() {
