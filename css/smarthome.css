@@ -144,7 +144,7 @@ width: 250px;
 }
 
 .solutions {
-background-image: url('../images/smart-home-2769215_1920.png');
+background-image: url('./images/smart-home-2769215_1920.png');
  background-repeat: no-repeat; 	
 //background-color: RGB(204,237,246);
 height: 100%;
