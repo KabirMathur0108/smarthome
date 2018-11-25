@@ -6,7 +6,10 @@ function toggleMenu(idx) {
 	menulinks[idx].style.borderBottom = "2px solid #6466AA";
 }
 
-setTimeout(function() {lighthome();},2500);
+function pagetimer() {
+	lighthome();
+	setTimeout(function() {pagetimer();},2500);
+}
 
 function lighthome() {
 	var homeimg = document.getElementById("imghome");
