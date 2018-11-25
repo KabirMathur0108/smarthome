@@ -1,4 +1,6 @@
-
+body, html {
+height: 100%;
+}
 
 .navbar {
 text-align: right;
@@ -21,6 +23,10 @@ padding: 10px;
 text-align: right;
 line-height: 40px;
 transition: all ease-in-out 0.3s;
+}
+
+.homepage {
+height: 100%;
 }
 
 .topfeaturerow {
@@ -120,8 +126,78 @@ text-align: center;
 color: #646667;
 }
 
+.pageheading {
+font-family: open sans;
+font-size: 24pt;
+line-height: 1.4;
+}
+
+.pageheading2 {
+font-family: open sans;
+font-size: 20pt;
+line-height: 1.4;
+color: #646667;
+}
+
 .imgtabletdashboard {
 width: 250px;
+}
+
+.solutions {
+background-image: url('../images/smart-home-2769215_1920.png');
+ background-repeat: no-repeat; 	
+//background-color: RGB(204,237,246);
+height: 100%;
+text-align:middle;
+}
+
+.solutionsrow {
+text-align: center;
+height: 40%;
+}
+
+.solutionscol {
+display: inline-block;
+padding-bottom: 20px;
+margin: 10px;
+background-color:white;
+width: 30%;
+height: 80%;
+background: rgba(230,230,230,0.9);
+vertical-align: top;
+box-shadow: 0 10px 6px -6px #777;
+border-radius: 15px 40px;
+}
+
+.solutiontitle {
+font-family: open sans;
+font-size: 18pt;
+line-height: 1.4;
+color: #ffad2b;
+}
+
+.sectionlist { 
+vertical-align: top;
+text-align: left;
+
+}
+.sectionlist ol { 
+font-style:italic; 
+font-family:Georgia, Times, serif; 
+font-size:24px; 
+color:#adc1d1;
+}
+.sectionlist ol li { }
+.sectionlist ol li p { 
+padding:2px; 
+font-style:normal; 
+font-family:Arial; 
+font-size:14px; 
+color: RGB(164,66,0);
+border-left: 1px solid #999; 
+}
+.sectionlist ol li p em { 
+display:block; 
 }
 
 .footerlink {
